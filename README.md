@@ -39,3 +39,53 @@ The game map is represented as a one dimensional vector instead of two dimension
 | ![kép](https://user-images.githubusercontent.com/60004480/183754933-45909381-7d28-4c2e-aca1-83309aa0b23e.png) <br> ... (More header files)  | ![kép](https://user-images.githubusercontent.com/60004480/183755009-edfa5503-fd19-482a-a01f-32ad1c146e85.png) <br> (SDLtest might not need!)  | ![kép](https://user-images.githubusercontent.com/60004480/183754843-38f43820-931c-43cf-8b95-0d5d579cca28.png)  |
   
 </div>
+
+9. Open a terminal and write this command: subst T: C:\SDL
+10. Open Visual Studio 2022, make a project and open project settings.
+11. Set the top bar like this.
+
+<div align="center">
+  
+![kép](https://user-images.githubusercontent.com/60004480/183756201-ad72efa9-24f5-4ce0-93ca-4c6f3a25e4a1.png)
+
+</div>
+  
+12. VC++ Directories >> Include directories >> T:\include;$(IncludePath)
+
+<div align="center">
+
+![kép](https://user-images.githubusercontent.com/60004480/183755848-45156c5c-5283-4a82-a50d-2c31995a769b.png)
+
+</div>
+
+13. VC++ Directories >> Include directories >> T:\lib;$(LibraryPath)
+
+<div align="center">
+
+![kép](https://user-images.githubusercontent.com/60004480/183756057-69c29e07-f5ab-4154-87ff-cb18b109fd9a.png)
+
+</div>
+
+14. Debugging >> PATH=T:\bin;%PATH%
+
+<div align="center">
+
+![kép](https://user-images.githubusercontent.com/60004480/183756467-cce70722-d354-4400-aa8f-e5a40e635e6b.png)
+
+</div>
+
+15. Linker >> Input >> Additional Dependencies >> SDL2.lib;SDL2main.lib;SDL2_image.lib;SDL2_ttf.lib;SDL2_mixer.lib;
+
+<div align="center">
+  
+![kép](https://user-images.githubusercontent.com/60004480/183756640-77ae86e1-ae00-477d-b427-4c36f6656f41.png)
+
+</div>
+
+16. Go back set this options like this and you are ready to go.
+
+<div align="center">
+
+![kép](https://user-images.githubusercontent.com/60004480/183756944-4628a035-eaed-4779-bc7a-f28d29cfb899.png)
+
+</div>
