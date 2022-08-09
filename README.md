@@ -23,4 +23,4 @@ The game map is represented as a one dimensional vector instead of two dimension
 4. Download SDL2_mixer pack: https://www.libsdl.org/projects/SDL_mixer/release/SDL2_mixer-devel-2.0.4-VC.zip
 5. Make a folder in local disk C:\ named as SDL.
 6. In C:\SDL folder make folders named as bin, include and lib.
-7. Extract the downloaded SDL2 folders and copy their include content to the C:\SDL\include folder. Do the same thing with lib and bin folders. (If lib and bin files are in the same directory in the extracted SDL2 packs, then sort them. )
+7. Extract the downloaded SDL2 folders and copy their include content to the C:\SDL\include folder. Do the same thing with lib and bin folders. (If lib and bin files are in the same directory of the extracted SDL2 packs then sort them to the proper folds. )
