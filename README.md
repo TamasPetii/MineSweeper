@@ -8,6 +8,11 @@ The program has all the algorithms and features that a full value minesweeper pr
 The game map is represented as a one dimensional vector instead of two dimensional vectors.
 # About Game Options
 
+| First Header  | Second Header |
+| ------------- | ------------- |
+| Content Cell  | Content Cell  |
+| Content Cell  | Content Cell  |
+
 # About Game Sounds
 - Background Music: https://www.youtube.com/watch?v=jyoQu_qxtfE
 - Winning Sound: https://www.youtube.com/watch?v=DB8WIdZEHJU
@@ -25,9 +30,12 @@ The game map is represented as a one dimensional vector instead of two dimension
 6. In C:\SDL folder make folders named as bin, include and lib.
 7. Extract the downloaded SDL2 folders and copy their x64 include content to the C:\SDL\include folder. Do the same thing with lib and bin folders (x64!!!). (If lib and bin files are in the same directory of the extracted SDL2 packs then sort them to the proper folds. )
 8. At this point your folder should look like this: 
-<br>
-<br>
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+
+<div align="center">
+
+| Include  | Lib | Bin |
+| ------------- | ------------- | ------------- |
+| ![kép](https://user-images.githubusercontent.com/60004480/183754634-c33e9a1d-5a21-4651-9e45-6049a18de8ea.png)  | ![kép](https://user-images.githubusercontent.com/60004480/183754683-990298c9-6d11-4184-915e-6e33f571ec4e.png)  | ![kép](https://user-images.githubusercontent.com/60004480/183754762-512b8b76-c5fc-497f-ad55-f5d3ecf4f77f.png)  |
+| ![kép](https://user-images.githubusercontent.com/60004480/183754933-45909381-7d28-4c2e-aca1-83309aa0b23e.png) <br> ... (More header files)  | ![kép](https://user-images.githubusercontent.com/60004480/183755009-edfa5503-fd19-482a-a01f-32ad1c146e85.png) <br> (SDLtest might not need!)  | ![kép](https://user-images.githubusercontent.com/60004480/183754843-38f43820-931c-43cf-8b95-0d5d579cca28.png)  |
+  
+</div>
