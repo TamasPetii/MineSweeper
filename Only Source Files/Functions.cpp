@@ -4,6 +4,10 @@ void thread(Game* game) {
 	while (!game->quit) {
 		while (!game->stopThread) {
 			game->DecreaseTime();
+			if (game->Get_Time() == 0) {
+				game->stopThread = true;
+				game->end = true;
+			}
 			//game->Print();
 			Sleep(1000);
 			if (!game->option) {
