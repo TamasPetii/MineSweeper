@@ -13,11 +13,11 @@ The game map is represented as a one dimensional vector instead of two dimension
 | ![kép](https://user-images.githubusercontent.com/60004480/183865860-5d379cd9-09e9-4e47-b06d-cf0ee3c51d25.png)  | By pressing this button you can load an existing half-finished game state. <br> The filename is very important it must be named as Map.txt. <br> If Map.txt does not exist an error sound will be heard.  |
 | ![kép](https://user-images.githubusercontent.com/60004480/183865888-4af4e8c4-5637-45ae-8528-14915a4fb3cd.png)  | By pressing this button you can save the current game state. <br> The process will create a file named as Map.txt that you can load back anytime you want. <br> If the game has ended or hasn't started yet an error sound will be head.  |
 | ![kép](https://user-images.githubusercontent.com/60004480/183865938-f957d67b-5ed7-4ef4-8511-68a65026a8fb.png)  | This button creates and starts a new game. <br> It does not create a new game if a state has been loaded. |
-| ![kép](https://user-images.githubusercontent.com/60004480/183868921-d7275a5d-153e-42d7-bc18-86600b6acd4a.png)  | This button can only be pressed if the game has already started. This will reset everything and you can start a whole new game. |
-| ![kép](https://user-images.githubusercontent.com/60004480/183866009-c258402c-95bd-4eff-b2f9-8925d985144e.png)  |  |
-| ![kép](https://user-images.githubusercontent.com/60004480/183866141-2ac495ac-1f39-4f78-9f4a-70f2dc7adba6.png)  |  | 
-| ![kép](https://user-images.githubusercontent.com/60004480/183866211-711017ad-db90-493f-aeb3-f18aa5608723.png)  |  | 
-| ![kép](https://user-images.githubusercontent.com/60004480/183866238-3709998c-a6a3-4856-bfc0-b9866557e591.png)  |  | 
+| ![kép](https://user-images.githubusercontent.com/60004480/183868921-d7275a5d-153e-42d7-bc18-86600b6acd4a.png)  | This button can only be pressed if the game has already started. <br> This will reset everything and you can start a whole new game. |
+| ![kép](https://user-images.githubusercontent.com/60004480/183866009-c258402c-95bd-4eff-b2f9-8925d985144e.png)  | By default a chill beat can be heard in the background. <br> You can disable it by clicking on the black music icon.|
+| ![kép](https://user-images.githubusercontent.com/60004480/183866141-2ac495ac-1f39-4f78-9f4a-70f2dc7adba6.png)  | You can set the game map size. The current chosen one is displayed as red. The other available options are displayed as white.  | 
+| ![kép](https://user-images.githubusercontent.com/60004480/183866211-711017ad-db90-493f-aeb3-f18aa5608723.png)  | You can set the number of bombs on the map. <br> The current chosen one is displayed as red. <br> The other available options are displayed as white. <br> The unavailable options are displayed as grey. <br> It happens if the proportion of size / bombs is to low. | 
+| ![kép](https://user-images.githubusercontent.com/60004480/183866238-3709998c-a6a3-4856-bfc0-b9866557e591.png)  | You can set the time in which you need to solve the given puzzle. If time is up you lost. | 
 
 # About Game Sounds
 - Background Music: https://www.youtube.com/watch?v=jyoQu_qxtfE
